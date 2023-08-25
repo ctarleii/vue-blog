@@ -8,6 +8,7 @@
 
 <script>
 import SinglePost from './SinglePost.vue'
+import {onMounted, onUnmounted, onUpdated} from "vue";
 
 export default {
     props: [
@@ -16,6 +17,7 @@ export default {
     components: {
         SinglePost
     },
+
 }
 </script>
 
